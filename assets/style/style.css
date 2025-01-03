@@ -1,0 +1,29 @@
+/* --------------
+Spalvos
+#FFFFFF balta;
+#FD7452;
+#FF4265;
+#BA92A7;
+#140119;
+#5B0E4E;
+
+*/
+
+:root{
+    --balta: #FFFFFF;
+    --oranzine: #FD7452;
+    --ruzava: #FF4265;
+    --sviesiai_alyvine: #BA92A7;
+    --tamsiai_alyvine: #140119;
+    --alyvine: #5B0E4E;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    width: 100%;
+    background-color: var(--alyvine);
+    max-height: 600px;
+}
