@@ -15,15 +15,15 @@ Spalvos
     --ruzava: #FF4265;
     --sviesiai_alyvine: #BA92A7;
     --tamsiai_alyvine: #140119;
-    --alyvine: #5B0E4E;
+    --lilac: #5B0E4E;
 }
-*{
+.wrapper{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.background {
+.background{
     width: 100%;
-    background-color: var(--alyvine);
+    background-color: var(--lilac);
     max-height: 600px;
 }
